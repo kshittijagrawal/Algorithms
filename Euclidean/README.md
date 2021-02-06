@@ -9,12 +9,12 @@ for d from 1 ---> min(a, b):
     best ---> d
 return best
 ```
-This algorithm works just fine but with the cost of its runtime. If the input size is small, i.e a, b <= 10^2, the runtime is approximately linear. If the input scales, i.e a, b <= 10^9, the runtime too scales. Though theoretically it is linear, but could take several minutes to compute.  
+This algorithm works just fine but with the cost of its runtime. If the input size is small, i.e a, b <= 10^2, the runtime is approximately linear. If the input scales, i.e a, b <= 10^9, the runtime too scales. Though theoretically it is linear, it could take several minutes to compute.  
 
 ### Euclidean Algorithm  
 
 A recursive technique, here, could fill the gap of runtime.  
-The lemma says that `gcd(a, b) = gcd(a', b) = gcd(b, a')` where a' is the remainder when a is divided by b.  
+The lemma says that `gcd(a, b) = gcd(a', b) = gcd(b, a')`, where a' is the remainder when a is divided by b.  
 ```
 Euclid(a, b):
   if b == 0:
