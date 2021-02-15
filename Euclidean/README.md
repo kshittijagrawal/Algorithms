@@ -22,4 +22,4 @@ Euclid(a, b):
   a' ---> remainder when a is divided by b
   return Euclid(b, a')
 ```
-Even if the size of the input is of the order of 10^7, the algorithm would take a maximum of 7 to 8 steps to compute the GCD, as each recursive call reduces the size of the numbers by approximately a factor of 2. Takes about log(a.b) steps in general.
+Even if the size of the input is of the order of 10^7, the algorithm would take a maximum of 6 to 7 steps to compute the GCD, as each recursive call reduces the size of the numbers by approximately a factor of 2. Takes about log(ab) steps in general.
