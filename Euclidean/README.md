@@ -13,7 +13,7 @@ This algorithm works just fine but with the cost of its runtime. If the input si
 
 ### Euclidean Algorithm  
 
-A recursive technique, here, could fill the gap of runtime.  
+A recursive technique, here, could fill the void of runtime.  
 The lemma says that `gcd(a, b) = gcd(a', b) = gcd(b, a')`, where a' is the remainder when a is divided by b.  
 ```
 Euclid(a, b):
