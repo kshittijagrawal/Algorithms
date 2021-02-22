@@ -25,7 +25,7 @@ The runtime of the above mentioned naive algorithm is O(n^2).
 ### Naive Approach 2.0  
   
 Split A(x) and B(x) into 2 functions each.  
-A(x) = D'(x).x^(n/2) + D(x)             {**A(x) splits into D'(x) and D(x)**}  
-and B(x) = E'(x).x^(n/2) + E(x)         {**B(x) splits into E'(x) and E(x)**}  
+A(x) = D'(x).x^(n/2) + D(x)  ========> {**A(x) splits into D'(x) and D(x)**}  
+and B(x) = E'(x).x^(n/2) + E(x)  ========> {**B(x) splits into E'(x) and E(x)**}  
 such that A(x)B(x) = (D'.E')x^2(n/2) + (D'.E + D.E')x^n/2 + (D.E)  
   
