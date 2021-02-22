@@ -19,6 +19,7 @@ return product
 ```
 where n = 3, A = [3, 2, 5] and B = [5, 1, 2]  
 and product = [15, 13, 33, 9, 10]. (in the above example)  
+
 The runtime of the above mentioned naive algorithm is O(n^2).  
   
 ### Naive Approach 2.0  
