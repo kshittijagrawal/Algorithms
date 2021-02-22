@@ -1,7 +1,7 @@
 import numpy as np
 
 # n is the number of terms in the quadratic eq
-# a and b are the particular terms of our final result which we aim to find. During the start, it is 0 each
+# a and b are the particular terms of our final result which we aim to find. During the start, they are 0 each
 def poly_mult_dc_naive(A, B, n, a, b):
   C = np.zeros(2*n - 1, dtype=int)
   if n == 1:
