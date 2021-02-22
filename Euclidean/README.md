@@ -4,7 +4,7 @@
 GCD of 2 non-negative integers is the largest number that divides both the integers with a remainder of 0. A naive approach can be running a for loop and checking the divisibility one-by-one.  
 ```
 best = 0
-for d from 1 --> min(a, b):
+for d from 1 to min(a, b):
   if d/a and d/b:
     best <--- d
 return best
